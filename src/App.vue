@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <h1><a href="/gdwater/index.html">地下水污染模拟</a></h1>
+  <h1><a href="/gdwater_simulation/index.html">地下水污染模拟</a></h1>
   
   <div>
     <a href="https://vitejs.dev" target="_blank">
