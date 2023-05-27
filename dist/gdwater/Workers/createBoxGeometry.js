@@ -1,0 +1,2 @@
+/*! For license information please see createBoxGeometry.js.LICENSE.txt */
+define(["./BoxGeometry-b27aa416","./defaultValue-65031fc5","./Transforms-a48d25e5","./Matrix2-c339372d","./ComponentDatatype-1b227f17","./WebGLConstants-f5c279b9","./RuntimeError-23f4777c","./combine-96aed74b","./GeometryAttribute-5db26912","./GeometryAttributes-f9b563d6","./GeometryOffsetAttribute-026030ef","./VertexFormat-2b3ad79f"],(function(e,t,r,o,n,a,f,b,m,u,i,c){"use strict";return function(r,o){return t.defined(o)&&(r=e.BoxGeometry.unpack(r,o)),e.BoxGeometry.createGeometry(r)}}));
