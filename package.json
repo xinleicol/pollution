@@ -23,6 +23,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "element-plus": "^2.3.5",
     "vue": "^3.2.47"
   },
   "devDependencies": {
