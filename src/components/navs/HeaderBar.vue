@@ -19,6 +19,10 @@
       <router-link to="/haonan">Home Page for HaoNan</router-link>
     </el-menu-item>
 
+    <el-menu-item index="4">
+      <a href="/papers/index.html">文章</a>
+    </el-menu-item>
+
     <el-sub-menu index="3">
       <template #title>Workspace</template>
       <el-menu-item index="2-1">item one</el-menu-item>
