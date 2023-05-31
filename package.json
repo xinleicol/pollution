@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev papers",
+    "docs:build": "vitepress build papers",
+    "docs:preview": "vitepress preview papers"
   },
   "repository": {
     "type": "git",
@@ -29,6 +32,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "vitepress": "^1.0.0-beta.1"
   }
 }
