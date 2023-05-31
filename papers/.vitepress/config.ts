@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: '主页', link: 'https://xinleicol.github.io/' },
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
