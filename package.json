@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev papers",
     "docs:build": "vitepress build papers",
-    "docs:preview": "vitepress preview papers"
+    "docs:preview": "vitepress preview papers",
+    "build:all":"vitepress build papers && vite build"
   },
   "repository": {
     "type": "git",
