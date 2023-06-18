@@ -19,13 +19,15 @@
       <router-link to="/haonan">Home Page for HaoNan</router-link>
     </el-menu-item>
 
-    <el-menu-item index="4">
+    <el-menu-item index="3">
       <a href="/papers/index.html">文章</a>
     </el-menu-item>
 
-    <el-sub-menu index="3">
-      <template #title>Workspace</template>
-      <el-menu-item index="2-1">item one</el-menu-item>
+    <el-sub-menu index="4">
+      <template #title>其他</template>
+      <el-menu-item index="2-1">
+        <router-link to="/others">吐槽</router-link>
+      </el-menu-item>
       <el-menu-item index="2-2">item two</el-menu-item>
       <el-menu-item index="2-3">item three</el-menu-item>
       <el-sub-menu index="2-4">
@@ -38,7 +40,7 @@
   </el-menu>
 </template>
   
-  <script lang="ts" setup>
+<script lang="ts" setup>
 import { ref } from "vue";
 
 const activeIndex = ref("0");
