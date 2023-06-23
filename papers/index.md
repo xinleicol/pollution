@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Ceily的博客"
+  text: "博客网站"
+  tagline: 短暂且宝贵的生命记录
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 所有文章
+      link: /older/2021-03-02-Photogrammetry-python
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 称呼
+    details: Ceily
+  - title: 职业
+    details: 程序员，目前岗位为Unity开发工程师
+  - title: 学历
+    details: 22届研究生毕业
 ---
 

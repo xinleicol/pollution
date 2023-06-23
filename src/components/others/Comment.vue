@@ -24,7 +24,6 @@ const submitComment = () => {
     newCommentLists.push(new Comment("Ceily", textarea.value, new Date().toLocaleString()));
     textarea.value = "";
   }
-  console.log(newCommentLists);
 }
 
 let commentObj: Array<Comment>;
