@@ -2,25 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "Ceily的博客",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: 'https://xinleicol.github.io/' },
+      { text: '主站', link: 'https://xinleicol.github.io/' },
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '文章', link: '/older/2021-03-02-Photogrammetry-python' }
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ],
-        
-      },
       {
         text: '研究课题',
         collapsed: false,
@@ -30,7 +22,15 @@ export default defineConfig({
           { text: '22年读书笔记', link: '/older/2023-01-10-read-notes' },
         ],
         
-      }
+      } ,
+      {
+        text: 'Unity',
+        collapsed: false,
+        items: [
+          { text: '渲染顺序', link: '/2023/2023-06-23-unity-render-order' },
+        ],
+        
+      },
     ],
 
     socialLinks: [
